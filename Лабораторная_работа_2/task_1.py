@@ -8,4 +8,6 @@ for i in range(months):
     money_capital += (current_spend - salary)
     current_spend *= (1 + increase)
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", int(money_capital))
+if money_capital > int(money_capital):
+    money_capital = int(money_capital + 1)
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", money_capital)
